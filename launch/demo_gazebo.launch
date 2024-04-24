@@ -12,7 +12,7 @@
   <arg name="gazebo_gui" default="false"/>
   <arg name="paused" default="false"/>
   <!-- By default, use the urdf location provided from the package -->
-  <arg name="urdf_path" default="$(find sonar_testing)/urdf/dummy.urdf"/>
+  <arg name="urdf_path" default="$(find dummy_robot)/config/dummy.urdf"/>
 
   <!-- launch the gazebo simulator and spawn the robot -->
   <include file="$(find dummy_robot)/launch/gazebo.launch" >
